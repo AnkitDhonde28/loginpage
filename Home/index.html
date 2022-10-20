@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <div class="content">
+                <img src="image/aadil-ace-TKPC9CvglVg-unsplash.jpg" alt="">
+            </div>
+            <div class="text-section">
+                <div class="loginform">
+                    <p class="welcomeBack">Welcome back</p>
+                    <h2>Login to your acoount</h2>
+                    <form id="login-form">
+                        <label for="email">Email</label>
+                        <input class="textInput" type="text" name="username" id="username" placeholder="Email/Username" required> 
+                        <label for="password">Password</label>
+                        <input class="textInput" type="password"  id="password" placeholder="Password" required >
+                        <div class="loginOptions">
+                            <div class="checkbox">
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe" class="checkInput">
+                                <label for="rememberMe" class="rememberMe"></label>
+                            </div>
+                            <label for="rememberMe" class="rememberMe"> Remember me</label>
+                            <a href="#" style="text-decoration: none">Forgot Password?</a>
+                        </div>
+                        <button class="login-btn btn" type="submit" id="login-form-submit" value="login" >Login Now</button>
+                        <button class="google-btn btn">
+                            <img src="image/icons8-google-48.png" alt=""> Or sign-in with Google</button>
+                     </form>
+                </div>
+                <p>Don't have an account? <a href="#" style="text-decoration: none">Join free today</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
